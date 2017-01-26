@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="lib/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jsbin.css"></link>
+		<title>Rafael's JS Bin</title>
+	</head>
+
+	<body>
+		<div id="header">
+			<div id="mainlogo">
+				
+				Rafs Code Fiddle
+			</div>
+
+			<div id="topbar-container">
+				<div class="topbar-button active" id="html">HTML</div>
+				<div class="topbar-button active" id="javascript">Javascript</div>
+				<div class="topbar-button active" id="css">CSS</div>
+				<div class="topbar-button active" id="outputButton">Output</div>
+			</div>
+		</div>
+
+		<div id="mainContainer">
+			<textarea id="htmlInput" class="text-panel"><p id="test">Hello World</p></textarea>
+			<textarea id="javascriptInput" class="text-panel">document.getElementById("test").innerHTML = "hey there";</textarea>
+			<textarea id="cssInput" class="text-panel">p { color: red; }</textarea>
+			<iframe id="outputButtonInput" class="panel"></iframe>
+		</div>
+
+		<script type="text/javascript" src="js/jsbin.js"></script>
+
+	</body>
+</html>
